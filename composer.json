@@ -1,0 +1,31 @@
+{
+  "name": "zxyfaxcn/easytk",
+  "type": "library",
+  "description": "淘客融合SDK，支持多多进宝、京东联盟",
+  "keywords": [
+    "淘客SDK"
+  ],
+  "homepage": "https://github.com/zxyfaxcn/easytk",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "tk",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0",
+    "ext-mbstring": "*",
+    "ext-simplexml": "*",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "EasyTK\\": "src/"
+    },
+    "files": [
+      "src/helper.php"
+    ]
+  }
+}
